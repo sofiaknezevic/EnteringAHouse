@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DEF18A51E551FB1003FF18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF18A41E551FB1003FF18B /* main.m */; };
+		5DEF18A81E551FB1003FF18B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF18A71E551FB1003FF18B /* AppDelegate.m */; };
+		5DEF18AB1E551FB1003FF18B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF18AA1E551FB1003FF18B /* ViewController.m */; };
+		5DEF18AE1E551FB1003FF18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF18AC1E551FB1003FF18B /* Main.storyboard */; };
+		5DEF18B01E551FB1003FF18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF18AF1E551FB1003FF18B /* Assets.xcassets */; };
+		5DEF18B31E551FB1003FF18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF18B11E551FB1003FF18B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DEF18A01E551FB1003FF18B /* EnteringAHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnteringAHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEF18A41E551FB1003FF18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DEF18A61E551FB1003FF18B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DEF18A71E551FB1003FF18B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DEF18A91E551FB1003FF18B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DEF18AA1E551FB1003FF18B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DEF18AD1E551FB1003FF18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DEF18AF1E551FB1003FF18B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DEF18B21E551FB1003FF18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DEF18B41E551FB1003FF18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DEF189D1E551FB1003FF18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DEF18971E551FB1003FF18B = {
+			isa = PBXGroup;
+			children = (
+				5DEF18A21E551FB1003FF18B /* EnteringAHouse */,
+				5DEF18A11E551FB1003FF18B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DEF18A11E551FB1003FF18B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF18A01E551FB1003FF18B /* EnteringAHouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DEF18A21E551FB1003FF18B /* EnteringAHouse */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF18A61E551FB1003FF18B /* AppDelegate.h */,
+				5DEF18A71E551FB1003FF18B /* AppDelegate.m */,
+				5DEF18A91E551FB1003FF18B /* ViewController.h */,
+				5DEF18AA1E551FB1003FF18B /* ViewController.m */,
+				5DEF18AC1E551FB1003FF18B /* Main.storyboard */,
+				5DEF18AF1E551FB1003FF18B /* Assets.xcassets */,
+				5DEF18B11E551FB1003FF18B /* LaunchScreen.storyboard */,
+				5DEF18B41E551FB1003FF18B /* Info.plist */,
+				5DEF18A31E551FB1003FF18B /* Supporting Files */,
+			);
+			path = EnteringAHouse;
+			sourceTree = "<group>";
+		};
+		5DEF18A31E551FB1003FF18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF18A41E551FB1003FF18B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DEF189F1E551FB1003FF18B /* EnteringAHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEF18B71E551FB1003FF18B /* Build configuration list for PBXNativeTarget "EnteringAHouse" */;
+			buildPhases = (
+				5DEF189C1E551FB1003FF18B /* Sources */,
+				5DEF189D1E551FB1003FF18B /* Frameworks */,
+				5DEF189E1E551FB1003FF18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnteringAHouse;
+			productName = EnteringAHouse;
+			productReference = 5DEF18A01E551FB1003FF18B /* EnteringAHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DEF18981E551FB1003FF18B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sofia Knezevic";
+				TargetAttributes = {
+					5DEF189F1E551FB1003FF18B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DEF189B1E551FB1003FF18B /* Build configuration list for PBXProject "EnteringAHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DEF18971E551FB1003FF18B;
+			productRefGroup = 5DEF18A11E551FB1003FF18B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DEF189F1E551FB1003FF18B /* EnteringAHouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DEF189E1E551FB1003FF18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF18B31E551FB1003FF18B /* LaunchScreen.storyboard in Resources */,
+				5DEF18B01E551FB1003FF18B /* Assets.xcassets in Resources */,
+				5DEF18AE1E551FB1003FF18B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DEF189C1E551FB1003FF18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF18AB1E551FB1003FF18B /* ViewController.m in Sources */,
+				5DEF18A81E551FB1003FF18B /* AppDelegate.m in Sources */,
+				5DEF18A51E551FB1003FF18B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DEF18AC1E551FB1003FF18B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEF18AD1E551FB1003FF18B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DEF18B11E551FB1003FF18B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEF18B21E551FB1003FF18B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DEF18B51E551FB1003FF18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DEF18B61E551FB1003FF18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DEF18B81E551FB1003FF18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnteringAHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sofiaknezevic.EnteringAHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DEF18B91E551FB1003FF18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnteringAHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sofiaknezevic.EnteringAHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DEF189B1E551FB1003FF18B /* Build configuration list for PBXProject "EnteringAHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF18B51E551FB1003FF18B /* Debug */,
+				5DEF18B61E551FB1003FF18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DEF18B71E551FB1003FF18B /* Build configuration list for PBXNativeTarget "EnteringAHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF18B81E551FB1003FF18B /* Debug */,
+				5DEF18B91E551FB1003FF18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DEF18981E551FB1003FF18B /* Project object */;
+}
