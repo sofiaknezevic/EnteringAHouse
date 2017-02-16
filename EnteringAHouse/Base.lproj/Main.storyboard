@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Bsi-Rs-452">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,7 +51,7 @@
         <!--Coat Room-->
         <scene sceneID="s1Q-dc-skh">
             <objects>
-                <viewController id="3eL-z2-ZY6" userLabel="Coat Room" sceneMemberID="viewController">
+                <viewController id="3eL-z2-ZY6" userLabel="Coat Room" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="48M-Ee-1Dr"/>
                         <viewControllerLayoutGuide type="bottom" id="q9i-7P-b6f"/>
@@ -108,7 +108,7 @@
         <!--Dining Room-->
         <scene sceneID="2X0-df-gqk">
             <objects>
-                <viewController id="Su8-ap-Die" userLabel="Dining Room" sceneMemberID="viewController">
+                <viewController id="Su8-ap-Die" userLabel="Dining Room" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Bg-M4-wj4"/>
                         <viewControllerLayoutGuide type="bottom" id="nwu-sQ-YHM"/>
@@ -146,7 +146,7 @@
         <!--Kitchen-->
         <scene sceneID="DT3-jK-PXx">
             <objects>
-                <viewController id="eh2-0e-fSj" userLabel="Kitchen" sceneMemberID="viewController">
+                <viewController id="eh2-0e-fSj" userLabel="Kitchen" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1ZB-x8-zp8"/>
                         <viewControllerLayoutGuide type="bottom" id="CCl-er-Rf4"/>
@@ -156,7 +156,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="kitchen" translatesAutoresizingMaskIntoConstraints="NO" id="oBb-W7-9jh" userLabel="Kitchen">
-                                <rect key="frame" x="0.0" y="50" width="414" height="416"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="372"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGq-NS-h51">
                                 <rect key="frame" x="168" y="536" width="78" height="30"/>
@@ -184,7 +184,7 @@
         <!--Back Porch-->
         <scene sceneID="Oxl-r5-jQZ">
             <objects>
-                <viewController id="FdO-qq-S9z" userLabel="Back Porch" sceneMemberID="viewController">
+                <viewController id="FdO-qq-S9z" userLabel="Back Porch" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CyO-gs-Jus"/>
                         <viewControllerLayoutGuide type="bottom" id="meV-oL-HmX"/>
@@ -194,7 +194,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="back_porch" translatesAutoresizingMaskIntoConstraints="NO" id="smv-CB-ljz" userLabel="Back Porch">
-                                <rect key="frame" x="0.0" y="50" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="456"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEAD END" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3L-vs-HNv">
                                 <rect key="frame" x="165" y="625" width="84" height="21"/>
@@ -221,7 +221,7 @@
         <!--Dungeon-->
         <scene sceneID="aGf-b3-0yb">
             <objects>
-                <viewController id="F1t-5E-vMk" userLabel="Dungeon" sceneMemberID="viewController">
+                <viewController id="F1t-5E-vMk" userLabel="Dungeon" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KEN-QF-Y6T"/>
                         <viewControllerLayoutGuide type="bottom" id="G5y-99-izf"/>
@@ -231,7 +231,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="dungeon" translatesAutoresizingMaskIntoConstraints="NO" id="Bna-JK-dKf">
-                                <rect key="frame" x="0.0" y="50" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="456"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEAD END" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9g-f5-CUt">
                                 <rect key="frame" x="165" y="625" width="84" height="21"/>
@@ -258,7 +258,7 @@
         <!--Laboratory-->
         <scene sceneID="s7H-0m-3E8">
             <objects>
-                <viewController id="p32-KP-9Ti" userLabel="Laboratory" sceneMemberID="viewController">
+                <viewController id="p32-KP-9Ti" userLabel="Laboratory" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zed-54-Zhw"/>
                         <viewControllerLayoutGuide type="bottom" id="8Ff-OM-qW1"/>
@@ -268,7 +268,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="labratory" translatesAutoresizingMaskIntoConstraints="NO" id="IVN-Yu-I4b" userLabel="Laboratory">
-                                <rect key="frame" x="0.0" y="50" width="414" height="416"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="372"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vle-RK-soZ">
                                 <rect key="frame" x="173" y="536" width="69" height="30"/>
@@ -296,7 +296,7 @@
         <!--Generator-->
         <scene sceneID="dc0-IW-Ldb">
             <objects>
-                <viewController id="gbZ-zE-ORM" userLabel="Generator" sceneMemberID="viewController">
+                <viewController id="gbZ-zE-ORM" userLabel="Generator" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fWZ-5z-5Lb"/>
                         <viewControllerLayoutGuide type="bottom" id="kaS-Y9-7Kk"/>
@@ -306,7 +306,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="generator" translatesAutoresizingMaskIntoConstraints="NO" id="uaj-7f-gPQ" userLabel="Generator">
-                                <rect key="frame" x="0.0" y="50" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="456"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEAD END" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajc-gQ-9Kf">
                                 <rect key="frame" x="165" y="625" width="84" height="21"/>
@@ -333,7 +333,7 @@
         <!--Cursed Chalice-->
         <scene sceneID="clb-2L-TVC">
             <objects>
-                <viewController id="cOU-qv-zYT" userLabel="Cursed Chalice" sceneMemberID="viewController">
+                <viewController id="cOU-qv-zYT" userLabel="Cursed Chalice" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nDh-yg-i0p"/>
                         <viewControllerLayoutGuide type="bottom" id="SaM-E2-dcV"/>
@@ -343,7 +343,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="cursed_chalice" translatesAutoresizingMaskIntoConstraints="NO" id="yS5-Kf-KCg" userLabel="Cursed Chalice">
-                                <rect key="frame" x="0.0" y="50" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="456"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEAD END" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmx-xN-T6D">
                                 <rect key="frame" x="165" y="625" width="84" height="21"/>
@@ -370,7 +370,7 @@
         <!--Mysterious Lake-->
         <scene sceneID="osh-Zv-qV3">
             <objects>
-                <viewController id="eTc-u9-jmo" userLabel="Mysterious Lake" sceneMemberID="viewController">
+                <viewController id="eTc-u9-jmo" userLabel="Mysterious Lake" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gnK-O8-oKP"/>
                         <viewControllerLayoutGuide type="bottom" id="N6V-sC-gO4"/>
@@ -387,7 +387,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="mysterious_lake" translatesAutoresizingMaskIntoConstraints="NO" id="4Ws-vE-adJ" userLabel="Mysterious Lake">
-                                <rect key="frame" x="0.0" y="50" width="414" height="416"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="372"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -408,7 +408,7 @@
         <!--Secret Passage-->
         <scene sceneID="bLM-VB-nTB">
             <objects>
-                <viewController id="gbv-Ya-bKc" userLabel="Secret Passage" sceneMemberID="viewController">
+                <viewController id="gbv-Ya-bKc" userLabel="Secret Passage" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7QP-mW-27I"/>
                         <viewControllerLayoutGuide type="bottom" id="OKc-37-Xto"/>
@@ -418,7 +418,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="secret_passage" translatesAutoresizingMaskIntoConstraints="NO" id="Y6H-ox-XQl" userLabel="Secret Passage">
-                                <rect key="frame" x="0.0" y="50" width="414" height="421"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="377"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WY0-wr-7os">
                                 <rect key="frame" x="176" y="521" width="63" height="30"/>
@@ -464,7 +464,7 @@
         <!--Library-->
         <scene sceneID="cVz-MC-KKd">
             <objects>
-                <viewController id="QcW-k7-ffW" userLabel="Library" sceneMemberID="viewController">
+                <viewController id="QcW-k7-ffW" userLabel="Library" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yno-WS-Yao"/>
                         <viewControllerLayoutGuide type="bottom" id="PDh-SM-Wxh"/>
@@ -502,7 +502,7 @@
         <!--Up Stairs-->
         <scene sceneID="fZb-HJ-c43">
             <objects>
-                <viewController id="aSD-WO-ZNZ" userLabel="Up Stairs" sceneMemberID="viewController">
+                <viewController id="aSD-WO-ZNZ" userLabel="Up Stairs" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D6O-iJ-6Yc"/>
                         <viewControllerLayoutGuide type="bottom" id="hPS-pE-Lo1"/>
@@ -549,7 +549,7 @@
         <!--Bedroom-->
         <scene sceneID="Dm5-Qt-0zP">
             <objects>
-                <viewController id="128-K0-KmG" userLabel="Bedroom" sceneMemberID="viewController">
+                <viewController id="128-K0-KmG" userLabel="Bedroom" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NrY-L9-A7d"/>
                         <viewControllerLayoutGuide type="bottom" id="hvK-QH-6ZX"/>
@@ -559,7 +559,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bedroom" translatesAutoresizingMaskIntoConstraints="NO" id="KbU-Mb-Xus" userLabel="Bedroom">
-                                <rect key="frame" x="0.0" y="50" width="414" height="500.66666666666663"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="456.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEAD END" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDZ-bv-gyb">
                                 <rect key="frame" x="165" y="625.66666666666652" width="84" height="20.333333333333371"/>
@@ -586,7 +586,7 @@
         <!--Bathroom-->
         <scene sceneID="Mfq-5F-CsQ">
             <objects>
-                <viewController id="KgR-wW-z5C" userLabel="Bathroom" sceneMemberID="viewController">
+                <viewController id="KgR-wW-z5C" userLabel="Bathroom" customClass="MyOwn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MPW-s5-tHF"/>
                         <viewControllerLayoutGuide type="bottom" id="rzX-bK-Sp3"/>
@@ -596,7 +596,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bathroom" translatesAutoresizingMaskIntoConstraints="NO" id="CEc-Tf-jAP" userLabel="Bathroom">
-                                <rect key="frame" x="0.0" y="50" width="414" height="500"/>
+                                <rect key="frame" x="0.0" y="94" width="414" height="456"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEAD END" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKZ-Ve-Ywn">
                                 <rect key="frame" x="165" y="625" width="84" height="21"/>

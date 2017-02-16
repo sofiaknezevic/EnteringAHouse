@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     UIBarButtonItem *frontDoor = [[UIBarButtonItem alloc] initWithTitle:@"Go Back To Front Door" style:UIBarButtonItemStylePlain target:self action:@selector(returnToFrontDoor)];
     self.navigationItem.rightBarButtonItem = frontDoor;
 }
