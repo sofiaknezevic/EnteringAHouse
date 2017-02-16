@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD1769C1E5540CD005BE54B /* MyOwn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1769B1E5540CD005BE54B /* MyOwn.m */; };
 		5DEF18A51E551FB1003FF18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF18A41E551FB1003FF18B /* main.m */; };
 		5DEF18A81E551FB1003FF18B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF18A71E551FB1003FF18B /* AppDelegate.m */; };
 		5DEF18AB1E551FB1003FF18B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF18AA1E551FB1003FF18B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DD1769A1E5540CD005BE54B /* MyOwn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOwn.h; sourceTree = "<group>"; };
+		5DD1769B1E5540CD005BE54B /* MyOwn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOwn.m; sourceTree = "<group>"; };
 		5DEF18A01E551FB1003FF18B /* EnteringAHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnteringAHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEF18A41E551FB1003FF18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DEF18A61E551FB1003FF18B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				5DEF18A91E551FB1003FF18B /* ViewController.h */,
 				5DEF18AA1E551FB1003FF18B /* ViewController.m */,
 				5DEF18AC1E551FB1003FF18B /* Main.storyboard */,
+				5DD1769A1E5540CD005BE54B /* MyOwn.h */,
+				5DD1769B1E5540CD005BE54B /* MyOwn.m */,
 				5DEF18AF1E551FB1003FF18B /* Assets.xcassets */,
 				5DEF18B11E551FB1003FF18B /* LaunchScreen.storyboard */,
 				5DEF18B41E551FB1003FF18B /* Info.plist */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD1769C1E5540CD005BE54B /* MyOwn.m in Sources */,
 				5DEF18AB1E551FB1003FF18B /* ViewController.m in Sources */,
 				5DEF18A81E551FB1003FF18B /* AppDelegate.m in Sources */,
 				5DEF18A51E551FB1003FF18B /* main.m in Sources */,
@@ -307,6 +313,7 @@
 				5DEF18B91E551FB1003FF18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
