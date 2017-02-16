@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyOwn.h"
 
-@interface ViewController : MyOwn
+@interface ViewController : UIViewController
 
 
 @end
